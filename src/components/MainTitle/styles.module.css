@@ -1,0 +1,40 @@
+.box {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background: linear-gradient(62.47deg, #016dea 27.41%, #fa0101 95.02%);
+}
+.mTitle {
+  padding-right: 5px;
+  margin: 0;
+  font-size: 1.5em;
+  color: transparent;
+  background-image: linear-gradient(62.47deg, #016dea 27.41%, #fa0101 95.02%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  border-image-source: linear-gradient(
+    62.47deg,
+    #016dea 27.41%,
+    #fa0101 95.02%
+  );
+  border-image-slice: 1;
+}
+.iconR {
+  color: #fa0101;
+}

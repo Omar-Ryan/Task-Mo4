@@ -1,0 +1,9 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper {
+  padding: 30px 31px;
+}

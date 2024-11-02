@@ -1,0 +1,226 @@
+.table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #0000001a;
+  box-shadow: 0px 5px 50px 0px #0000001a;
+}
+.box {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.MidContent {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid #0000001a;
+}
+
+/* TimelineDataBox */
+.circle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  padding: 1px;
+  background: linear-gradient(62.47deg, #016dea 27.41%, #fa0101 95.02%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.icon {
+  color: black;
+  font-size: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.textSt {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: left;
+  color: #00000080;
+}
+.dateSt {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: #00000080;
+}
+.lineSt {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #0000001a;
+  margin-top: 10px;
+}
+/* typesComp */
+.typesComp {
+  display: flex;
+  gap: 20px;
+}
+.verLineL {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.verLineL span {
+  width: 20px;
+  height: 0px;
+  transform: rotate(-90deg);
+  border: 1px dashed #016dea;
+}
+.verLineM {
+  width: 50px;
+  height: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.verLineM span {
+  width: 9px;
+  height: 0px;
+  transform: rotate(-90deg);
+  border: 1px solid #016dea;
+}
+.verLineList {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verLineList span {
+  width: 20px;
+  height: 0px;
+  transform: rotate(-90deg);
+  border: 1px solid #016dea;
+}
+.typesCompText {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #016dea;
+}
+.typesCompTextSecond {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #00000080;
+}
+.textBox {
+  height: 59px;
+}
+.paid {
+  height: 30px;
+  padding: 9px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #02913f 0%, #0acd5e 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.pending {
+  height: 30px;
+  padding: 9px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: linear-gradient(270deg, #7f00ff 0%, #5200a5 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+ {
+  /* Contract Deliverables */
+}
+.deliverablesBox {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+.deliverablesBoxTitle {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: #016dea;
+}
+.Declined {
+  margin: 0;
+  height: 30px;
+  padding: 9px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: linear-gradient(
+    90deg,
+    #fa4001 0%,
+    #cd0d14 33.33%,
+    #a91d1e 66.66%,
+    #812924 100%
+  );
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.deliverablesBox span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: #00000080;
+}
+.deliverablesBoxLine {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+.deliverablesBoxText {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #00000080;
+}

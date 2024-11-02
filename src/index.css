@@ -1,0 +1,9 @@
+.g-3 {
+  gap: 20px;
+}
+.g-2 {
+  gap: 10px;
+}
+.gx-2 {
+  column-gap: 10px;
+}
